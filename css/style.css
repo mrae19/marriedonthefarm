@@ -186,8 +186,8 @@ input[type="reset"],
 input[type="button"],
 button {
     font-family: 'Nunito Sans', sans-serif;
-    background: #BD945A;
-    border: 1px solid #BD945A;
+    background: #0e5719;
+    border: 1px solid #0e5719;
     color: #fff;
     padding: 15px 30px;
     margin: 0;
@@ -253,7 +253,7 @@ input[type=checkbox]:before {
 input[type=checkbox]:after {
     font-family: 'themify';
     content: '\e64c';
-    color: #BD945A;
+    color: #0e5719;
     background: transparent;
     position: absolute;
     top: 1px;
@@ -296,7 +296,7 @@ input[type=radio]:before {
     display: inline-block;
     top: 0px;
     left: -4px;
-    background-image: radial-gradient(circle, #BD945A 50%, #fff 70%);
+    background-image: radial-gradient(circle, #0e5719 50%, #fff 70%);
     background-size: 0;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -435,26 +435,26 @@ input[type=radio]:checked:before {
     background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #BD945A;
+    background: #0e5719;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #BD945A;
+    background: #0e5719;
 }
 
 
 
 /* ===== Selection ===== */
 ::-webkit-selection {
-    color: #fff;
-    background: rgba(189, 148, 90, 0.75);
+    color: #0e5719;
+    background: #ffe9fb;
 }
 ::-moz-selection {
-    color: #fff;
-    background: rgba(189, 148, 90, 0.75);
+    color: #0e5719;
+    background: #ffe9fb;
 }
 ::selection {
-    color: #fff;
-    background: rgba(189, 148, 90, 0.75);
+    color: #0e5719;
+    background: #ffe9fb;
 }
 
 
@@ -471,10 +471,10 @@ input[type=radio]:checked:before {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #BD945A;
+    background: #0e5719;
 }
 .owl-theme .owl-nav [class*=owl-] {
-    background-color: #BD945A;
+    background-color: #0e5719;
     width: 30px;
     height: 30px;
     line-height: 25px;
@@ -485,7 +485,7 @@ input[type=radio]:checked:before {
     font-size: 12px;
     margin: 5px;
     padding: 4px 7px;
-    background: #BD945A;
+    background: #0e5719;
     display: inline-block;
     cursor: pointer;
     border-radius: 3px;
@@ -501,8 +501,8 @@ input[type=radio]:checked:before {
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
     background-color: transparent;
-    border: 1px solid #BD945A;
-    color: #BD945A;
+    border: 1px solid #0e5719;
+    color: #0e5719;
 }
 
 .owl-carousel .owl-nav button.owl-next, 
@@ -585,6 +585,7 @@ input[type=radio]:checked:before {
 #oliven-aside .oliven-logo img {
     width: 90px;
     margin-bottom: 0px;
+    rotate: 90deg;
 }
 @media screen and (max-width: 768px) {
     #oliven-aside .oliven-logo {
@@ -641,12 +642,12 @@ input[type=radio]:checked:before {
     border-bottom: 1px solid transparent;
 }
 #oliven-aside .oliven-main-menu ul li a:hover {
-    border-bottom: 1px solid #BD945A;
+    border-bottom: 1px solid #0e5719;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
 #oliven-aside .oliven-main-menu ul li.oliven-active a {
-    color: #BD945A;
+    color: #0e5719;
 }
 #oliven-aside .oliven-main-menu ul li.oliven-active a:after {
     visibility: visible;
@@ -675,7 +676,7 @@ input[type=radio]:checked:before {
     width: 75px;
 }
 #oliven-aside .footer1 a {
-    color: #BD945A;
+    color: #0e5719;
 }
 #oliven-aside .separator {
     width: 60px;
@@ -819,7 +820,7 @@ input[type=radio]:checked:before {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    background: #BD945A;
+    background: #0e5719;
     margin: 15px 30px;
     border-radius: 50%;
 }
@@ -954,7 +955,7 @@ body.offcanvason .oliven-nav-toggle {
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
     font-size: 30px;
-    color: #BD945A;
+    color: #0e5719;
     line-height: 1.25em;
     margin-bottom: 10px;
 }
@@ -965,7 +966,7 @@ body.offcanvason .oliven-nav-toggle {
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
     font-size: 60px;
-    color: #BD945A;
+    color: #0e5719;
     line-height: 1.5em;
     margin-bottom: 5px;
 }
@@ -983,7 +984,7 @@ body.offcanvason .oliven-nav-toggle {
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
     font-size: 30px;
-    color: #BD945A;
+    color: #0e5719;
     line-height: 1.5em;
     margin-bottom: 10px;
 }
@@ -1012,11 +1013,11 @@ body.offcanvason .oliven-nav-toggle {
     margin-bottom: 5px;
 }
 .bridegroom .info h6 i {
-    color: #BD945A;
+    color: #0e5719;
     font-size: 16px;
 }
 .bridegroom .info span {
-      color: #BD945A;
+      color: #0e5719;
     font-size: 24px;
     font-weight: 400;
     font-family: 'Alex Brush', cursive;
@@ -1039,8 +1040,8 @@ body.offcanvason .oliven-nav-toggle {
   font-size: 12px;
 }
 .bridegroom .info .social a:hover {
-  background-color: #BD945A;
-  border-color: #BD945A;
+  background-color: #0e5719;
+  border-color: #0e5719;
   color: #fff;
 }
 .bridegroom .toright .img {
@@ -1153,7 +1154,7 @@ body.offcanvason .oliven-nav-toggle {
     right: 0;
     left: 45px;
     bottom: 0;
-    border: 10px solid #BD945A;
+    border: 4px solid #0e571966;
 }
 .story .story-img .img img {
     position: relative;
@@ -1247,7 +1248,7 @@ body.offcanvason .oliven-nav-toggle {
     margin-bottom: 0;
 }
 .friends .info span {
-    color: #BD945A;
+    color: #0e5719;
     font-size: 24px;
     font-weight: 400;
     font-family: 'Alex Brush', cursive;
@@ -1308,7 +1309,7 @@ body.offcanvason .oliven-nav-toggle {
     font-size: 75px;
     margin-bottom: 15px;
     color: transparent;
-    -webkit-text-stroke: 1px #BD945A; 
+    -webkit-text-stroke: 1px #0e5719; 
 }
 .organization .item-box .title {
    font-size: 21px;
@@ -1384,7 +1385,7 @@ body.offcanvason .oliven-nav-toggle {
 .gallery-menu a.active,
 .gallery-menu a:hover {
        color: #fff;
-    background-color: #BD945A;
+    background-color: #0e5719;
 }
 .gallery-item {
     position: relative;
@@ -1473,7 +1474,7 @@ body.offcanvason .oliven-nav-toggle {
     font-style: italic;
 }
 .whenwhere .item .content .tag a:hover {
-    color: #BD945A;
+    color: #0e5719;
 }
 .whenwhere .item .content h5 {
     font-size: 21px;
@@ -1482,7 +1483,7 @@ body.offcanvason .oliven-nav-toggle {
     text-transform: uppercase;
 }
 .whenwhere .item .content p i {
-    color: #BD945A;
+    color: #0e5719;
 }
 .whenwhere-entry {
     width: 100%;
@@ -1584,8 +1585,8 @@ body.offcanvason .oliven-nav-toggle {
 }
 .buttono a {
     font-family: 'Nunito Sans', sans-serif;
-    background: #BD945A;
-    border: 1px solid #BD945A;
+    background: #0e5719;
+    border: 1px solid #0e5719;
     color: #fff;
     padding: 10px 20px;
     margin: 0;
@@ -1633,6 +1634,7 @@ body.offcanvason .oliven-nav-toggle {
 .footer2 img { 
     width: 90px;
     margin-bottom: 10px;
+    rotate: 90deg;
 }
 .footer2 h2,
 .footer2 h2 a {
@@ -1711,7 +1713,7 @@ body.offcanvason .oliven-nav-toggle {
   position: absolute;
   width: 26px;
   height: 26px;
-  background: #BD945A;
+  background: #0e5719;
   animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .lds-heart div:after,
@@ -1721,7 +1723,7 @@ body.offcanvason .oliven-nav-toggle {
   display: block;
   width: 26px;
   height: 26px;
-  background: #BD945A;
+  background: #0e5719;
 }
 .lds-heart div:before {
   left: -17px;
@@ -1867,7 +1869,7 @@ body.offcanvason .oliven-nav-toggle {
 }
 .blog-page .post-cont .tag:hover,
 .blog-page .post-cont .date:hover {
-  color: #BD945A;  
+  color: #0e5719;  
 }
 .blog-page .post-cont h5 {
     font-size: 27px;
@@ -1877,7 +1879,7 @@ body.offcanvason .oliven-nav-toggle {
     color: #000;
 }
 .blog-page .post-cont h5 a:hover {
-    color: #BD945A;
+    color: #0e5719;
 }
 .blog-page .post-cont .info {
     margin-top: 0px;
@@ -1908,16 +1910,16 @@ body.offcanvason .oliven-nav-toggle {
     margin-bottom: 10px;
 }
 .blog-sidebar .widget ul li:hover {
-    color: #BD945A;
+    color: #0e5719;
 }
 .blog-sidebar .widget ul li a {
     color: #888;
 }
 .blog-sidebar .widget ul li a.active {
-    color: #BD945A;
+    color: #0e5719;
 }
 .blog-sidebar .widget ul li a:hover {
-    color: #BD945A;
+    color: #0e5719;
 }
 .blog-sidebar .widget ul li:last-child {
     margin-bottom: 0;
@@ -1985,7 +1987,7 @@ body.offcanvason .oliven-nav-toggle {
 .blog-sidebar ul.tags li:hover,
 .blog-sidebar ul.tags li a:hover {
     color: #fff;
-    background-color: #BD945A;
+    background-color: #0e5719;
 }
 .blog-comment-section {
     padding-top: 60px;
@@ -2052,13 +2054,13 @@ body.offcanvason .oliven-nav-toggle {
 .blog-pagination-wrap li a:hover {
     opacity: 1;
     text-decoration: none;
-    background-color: #BD945A;
-    border: 1px solid #BD945A;
+    background-color: #0e5719;
+    border: 1px solid #0e5719;
     color: #fff;
 }
 .blog-pagination-wrap li a.active {
-    background-color: #BD945A;
-    border: 1px solid #BD945A;
+    background-color: #0e5719;
+    border: 1px solid #0e5719;
     color: #fff;
 }
 .blog-pagination-wrap li a i { 
