@@ -442,6 +442,29 @@ input[type=radio]:checked:before {
 }
 
 
+/*==Custom Button Styles==*/
+.buttonlink {
+    width: 100%;
+}
+
+.fullwidthbtn {
+    width: 100%;
+}
+
+.inactive {
+    opacity: 50%;
+    background-color: white;
+    color: grey;
+    border: grey;
+}
+
+.inactive:hover {
+    opacity: 50%;
+    cursor: none;
+    background-color: white;
+    color: grey;
+}
+
 
 /* ===== Selection ===== */
 ::-webkit-selection {
@@ -841,7 +864,7 @@ body.offcanvason #oliven-aside {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    width: 270px;
+    width: 380px;
     z-index: 999;
     position: fixed;
 }
@@ -1456,6 +1479,7 @@ body.offcanvason .oliven-nav-toggle {
 .whenwhere .item .whenwhere-img {
     position: relative;
     overflow: hidden;
+    max-height: 235px;
 }
 .whenwhere .item .whenwhere-img:hover img {
     -webkit-transform: scale(1.1);
