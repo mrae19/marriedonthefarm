@@ -883,6 +883,10 @@ body.offcanvason .oliven-nav-toggle {
     min-height: 100vh;
     overflow: hidden;
 }
+
+.header-short {
+    min-height: 0vh;
+}
 .header .caption .o-hidden {
     display: inline-block;
 }
